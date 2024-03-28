@@ -1,0 +1,840 @@
+* {
+    margin: 0;
+    padding: 0;
+ 
+}
+
+body {
+    background-color: whitesmoke;
+    overflow-x: hidden;
+}
+
+
+nav {
+    padding: 1.5vw;
+    background-color: white;
+    width: 100%;
+}
+
+
+.sticky {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left:0;
+    background-color: white;
+   z-index:1000; /*to ensure its on top of all content */
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.left1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logop {
+    font-size: 2.5vw;
+    font-weight: 1000;
+}
+
+.features1,
+.operations1,
+.testimonials1 {
+    /* background-color: aqua; */
+    font-size: large;
+    padding: 1vw;
+    border-radius: 3vw;
+}
+
+.openaccount {
+    background-color: lightgreen;
+    font-size: large;
+    font-weight: 1000;
+    padding: 1.2vw;
+    border-radius: 4vw;
+    cursor: pointer;
+}
+
+.navbar1 {
+    /* background-color: red; */
+    padding: 3vw;
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+    width:100%;
+}
+
+.leftsecond {
+    line-height: 5.2vw;
+}
+
+.ui {
+    font-size: large;
+    cursor: pointer;
+}
+
+section {
+    border-top: 0.1vw solid black;
+}
+
+.parah {
+    font-size: 4vw;
+    font-weight: 1000;
+
+}
+
+.parah1 {
+    font-size: 2.5vw;
+    font-weight: 1000;
+}
+
+.parah12 {
+    font-size: 2vw;
+    font-weight: 1000;
+    padding: 1.1vw;
+    margin: 1vw;
+}
+
+.parah123 {
+    font-size: 1.7vw;
+    font-weight: 1000;
+    padding: 0vw;
+    margin: 0vw;
+    position: absolute;
+    top: 28%;
+    left: 6.5%;
+}
+
+.parah2 {
+    font-size: 2vw;
+    font-weight: 1000;
+}
+
+.ui {
+    padding: 2vw;
+}
+
+.img1 {
+    padding: 4vw;
+    width: 48vw;
+}
+
+.sec-1 {
+    /*     
+background-color: aqua; */
+    padding: 12.5vw;
+    transition: transform 1s , opacity 1s;
+}
+
+.sec-2 {
+    /* background-color: blueviolet; */
+    padding: 12.5vw;
+    height: 100vh;
+    transition:transform 1s , opacity 1s;
+}
+
+.sec-3{
+    padding: 13vw;
+    transition: transform 1s, opacity 1s;
+    height:120vh;
+}
+
+.sectionhidden{
+    transform: translateY(8vw);
+    opacity:0;
+}
+.secpara1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vw;
+    line-height: 4vw;
+}
+
+.p1 {
+    font-size: 3vw;
+    font-weight: 2000;
+    color: darkgreen;
+}
+
+.ss {
+    padding: 4vw;
+    line-height: 6vw;
+}
+
+.s1 {
+    display: grid;
+ grid-template-columns: 40vw auto;
+
+}
+.i11 {
+    width: 30vw;
+    transition: filter 0.3s ease-in-out;
+}
+
+.lazy{
+    filter: blur(100vw); 
+}
+
+
+.i2 {
+    line-height: 2vw;
+    padding: 1vw;
+    width:35vw;
+}
+
+.p2,
+.p3 {
+    text-align: center;
+    padding: 1vw;
+}
+
+.p2 {
+    font-size: 2.5vw;
+    font-weight: 1000;
+    line-height: 3vw;
+}
+
+.s2 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.js1 {
+    background-color:grey;
+    margin: 10vw;
+    padding: 5vw;
+    display: grid;
+    grid-template-columns: 25vw 20vw 20vw;
+    align-items: center;
+    height: 27%;
+    width: 59%;
+}
+
+.btn {
+    border-radius: 2vw;
+    cursor: pointer;
+}
+
+.it {
+    background-color: rgb(191, 199, 218);
+    padding: 1vw;
+    font-size: 1.2vw;
+
+}
+
+
+.il {
+    background-color: rgb(191, 199, 218);
+    padding: 1vw;
+    font-size: 1.2vw;
+
+}
+
+
+
+.ic {
+    background-color: rgb(191, 199, 218);
+    padding: 1vw;
+    font-size: 1.2vw;
+
+}
+
+.one{
+    font-size: 1.5vw;
+    font-weight: 1000;
+ width:50vw;
+    height:16vw;
+    padding: 4vw;
+    position: absolute;
+    top:392%;
+    left:20%;
+    color:black;
+}
+.four{
+    font-size: 1.5vw;
+    font-weight: 1000;
+ width:50vw;
+    height:16vw;
+    padding: 4vw;
+    position: absolute;
+    top:392%;
+    left:20%;
+    color:black;
+}
+.three{
+    font-size: 1.5vw;
+    font-weight: 1000;
+ width:50vw;
+    height:16vw;
+    padding: 4vw;
+    position: absolute;
+    top:392%;
+    left:20%;
+    color:black;
+}
+
+footer {
+    height: 100vh;
+    background-color: grey;
+    border-top: 0.1vw solid black;
+}
+
+.f1 {
+    color: whitesmoke;
+    text-align: center;
+    padding: 2vw;
+    line-height: 7vw;
+    transition: transform 1s , opacity 1s;
+}
+
+.f4 {
+    border-top: 0.1vw solid black;
+    color: whitesmoke;
+    font-size: 1.5vw;
+    padding: 3vw;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+
+}
+
+.f5 {
+    margin: 2vw;
+    display: grid;
+    line-height: 6vw;
+    text-align: center;
+}
+
+.footercls {
+    font-size: 2vw;
+    font-weight: 1000;
+    color: black;
+}
+
+.a44 {
+    color: whitesmoke;
+}
+
+.it , .ic,.il{
+    position: absolute;
+    top: 385.4%;
+}
+
+.it{
+    left:25.2%;
+}
+.ic{
+    left:60%;
+}
+.il{
+    left:43.5%;
+}
+.activebtn{
+    position: absolute;
+    top:384.7%;
+}
+
+.features2,
+.testimonials2,
+.operations2 {
+    text-decoration: none;
+    font-size: 2vw;
+    font-weight: 1000;
+    color:black;
+}
+
+ 
+
+
+.openbtn1 {
+    /* background-color: rgb(191, 199, 218); */
+    border:0.1vw solid black;
+    background-color: #f3f3f3;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 37%;
+    height: 70%;
+    z-index: 3;
+    overflow: hidden;
+} 
+ 
+
+.closeacc2 {
+    padding: 0.4vw;
+    position: absolute;
+    top: -0.7vw;
+    right: 0vw;
+    font-size: 3vw;
+    font-weight: 100;
+    text-decoration: none;
+    border: none; 
+    background-color: transparent; 
+    color: #000; 
+    cursor: pointer; 
+
+}
+
+.openpara1 {
+    padding: 1vw;
+    margin: 1vw;
+    line-height: 5vw;
+}
+
+.open1 {
+
+    border: 0.2vw solid blue;
+    font-size: 1.3vw;
+
+
+}
+
+.fn,
+.ln,
+.ea {
+    font-size: 1.3vw;
+    font-weight: 1000;
+}
+
+.opp {
+    display: grid;
+    grid-template-columns: auto 20vw;
+}
+
+.ns {
+    padding: 1.232vw;
+  border:0.2vw solid black;
+    position: absolute;
+    left: 37%;
+    top: 81.5%;
+    cursor: pointer;
+}
+
+
+
+.two2{
+    background-color: whitesmoke;
+    width: 70%;
+    padding: 0vw;
+    line-height: 2.5vw;
+    height:80%;
+ transition: transform 0.5s ease-in-out;
+}
+
+
+.para3{
+    display: grid;
+    grid-template-columns: 20vw 60vw 5vw;
+    padding: 4vw;
+    margin: 2vw;
+    height:50vh;
+    line-height: 2vw;
+}
+
+
+
+.sss{
+    padding:3vw;
+}
+.df{
+    padding: 5vw;
+    color: black;
+}
+
+.arr1{
+    padding:2vw;
+    border-radius: 20vw;
+    background-color: lightgrey;
+    font-size: 1.5vw;
+    font-weight: 1000;
+    position: absolute;
+    top:376%;
+    right: 113%;
+    cursor: pointer;
+}
+
+.arrow3{
+    padding: 2vw;
+    border-radius: 20vw;
+    background-color: lightgrey;
+    font-size: 1.5vw;
+    font-weight: 1000;
+    position: absolute;
+ top:376%;
+left:110%;
+cursor: pointer;
+ 
+}
+
+.comma{
+    color: green;
+    padding: 2vw;
+    font-size: 3vw;
+}
+
+.tw{
+    display: grid;
+grid-template-columns: 25vw auto;
+}
+
+.image1{
+    border-radius: 45%;
+    width: 6.3vw;
+    position: absolute;
+top:60vw;
+}
+
+.tw2 {
+    position: absolute;
+    left: 10vw;
+    top:60vw;
+    width: 15vw;
+}
+
+
+.vk{
+    font-size: 1.5vw;
+    font-weight: 1000;
+}
+
+.del{
+    font-size: 1.2vw;
+    font-weight: 1000;
+}
+
+.gap{
+    display: grid;
+    grid-template-rows: 4vw auto;
+    position: absolute;
+  top:40vw;
+    width:50vw;
+}
+
+
+.two{
+    position: absolute;
+top:488%;
+left:25%;
+width:120%;
+z-index: 3;
+}
+
+
+.dots{
+    display: grid;
+    grid-template-columns: 2.2vw 2.2vw auto;
+    position: absolute;
+    top:627%;
+    left:44%;
+    cursor:pointer;
+}
+
+
+.dot1{
+    font-size: 7vw;
+    width:10%;
+    height: 10%;
+    color:lightgrey;
+}
+
+.hidden{
+    display: none;
+}
+
+.dotsactive{
+    color:grey;
+}
+
+.overlay {
+    backdrop-filter: blur(6.5px);
+       width: 100vw;
+       height: 100vh;
+       position: fixed;
+       top: 0;
+       left: 0;
+       z-index: 2;
+   }
+
+
+
+   
+.balance {
+    background-color: whitesmoke;
+    padding: 2vw;
+}
+
+.current,
+.cd {
+    font-weight: 1000;
+    font-size: 2vw;
+}
+
+.to {
+    position: absolute;
+    top: 28%;
+    right: 20%;
+    font-weight: 1000;
+    font-size: 3vw;
+}
+
+aside{
+    padding: 2vw;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+
+.left {
+    background-color: whitesmoke;
+    height: 73%;
+    width: 40vw;
+    overflow: auto;
+    /* Allow scrolling if content exceeds container height */
+
+}
+
+
+.depo {
+    background-color: rgb(184, 227, 104);
+    padding: 3vw;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.25vw solid black;
+}
+
+.with {
+    background-color: rgb(236, 73, 52);
+    padding: 3vw;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.25vw solid black;
+}
+
+.co {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: blanchedalmond;
+    justify-content: space-between;
+    padding: 2vw;
+    position: absolute;
+    top: 60vw;
+    height: 7%;
+    width: 35%;
+    border: 5px solid lightblue;
+    border-radius: 2vw;
+
+
+
+}
+
+/* If the content inside .lefty exceeds the height of its parent container, a vertical scrollbar will appear due to the overflow-y: scroll; property, allowing users to scroll through the content vertically. Similarly, if the content exceeds the width of .lefty, a horizontal scrollbar will appear by default unless explicitly handled.
+
+*/
+
+
+
+.lefty {
+    overflow-y: scroll;
+    /* to add scrolling bar*/
+    height: 100%;
+    /* occpy full height of parent container .left */
+}
+
+
+
+.right {
+    height: 90%;
+    width: 40vw;
+    border-radius: 1vw;
+}
+
+.transfer {
+    background-color: yellow;
+    padding: 2vw;
+    height: 20%;
+}
+
+.left2{
+    padding: 0.8vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+.transfer1 {
+    font-size: 2vw;
+    font-weight: 1000;
+}
+
+.rec {
+
+    width: 80%;
+    padding: 1vw;
+}
+
+.amount {
+    width: 80%;
+    padding: 1vw;
+}
+
+.tmbtn {
+    width: 80%;
+    padding: 1vw;
+}
+
+.request {
+    background-color: rgb(27, 116, 232);
+    padding: 2vw;
+    height: 20%;
+}
+
+.gh {
+    padding: 0.8vw;
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+
+.rll {
+    font-size: 2vw;
+    font-weight: 1000;
+
+}
+
+.reql {
+    width: 80%;
+    padding: 1vw;
+}
+
+.reqra {
+    width: 30%;
+    padding: 1vw;
+}
+
+.closeacc {
+    background-color: aquamarine;
+    padding: 2vw;
+    height: 20%;
+    position: absolute;
+    right:9.5vw;
+    top:46.5vw;
+}
+
+.clpara {
+    font-size: 2vw;
+    font-weight: 1000;
+}
+
+.gh1 {
+    padding: 0.8vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.closeus {
+    width: 80%;
+    padding: 1vw;
+}
+
+.closepin {
+    width: 80%;
+
+    padding: 1vw;
+}
+
+.closebtn2 {
+    width: 80%;
+    padding: 1vw;
+}
+
+.f {
+
+    background-color: lightblue;
+    text-align: center;
+    padding: 2vw;
+    height: 6%;
+    font-size: large;
+    font-weight: 1000;
+}
+
+.timer {
+    color: red;
+}
+
+.footeradd{
+    background-color: grey;
+    text-align: center;
+    height: 20%;
+    padding: 3vw;
+    font-size: 2vw;
+    font-weight: 1000;
+    width: 100%;
+    opacity: 0;
+
+}
+
+article{
+    background-color: white;
+    padding: 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    border-bottom: 0.3vw solid black;
+}
+
+.l {
+    font-weight: 1000;
+    font-size: 2vw;
+}
+
+.cont {
+    padding: 2vw;
+    display: grid;
+    grid-template-columns: 13vw 13vw auto;
+}
+
+.user,.pin{
+    border-radius: 2vw;
+    height:3vw;
+    background-color: none;
+}
+
+.righta{
+    height:3vw;
+    width:3vw;
+    font-size: 2vw;
+}
+
+.secondcls{
+    background-color: aquamarine;
+}
+
+.color1,.color2,.color3,.color4 , .sort{
+font-size: 1.5vw;
+}
+
+.lo{
+    opacity:0.6;
+}
+
+.lo:hover{
+opacity:1;
+border: 0.3vw solid whitesmoke ;
+border-radius: 2vw;
+background-color: white;
+}

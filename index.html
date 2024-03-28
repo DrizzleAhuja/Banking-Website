@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bankist-Website</title>
+    <link rel="shortcut icon" type="image/png" href="img/logo.png" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <article class="hidden firstly">
+        <p class="l">Log In to get started</p>
+        <img src="img/logo.png" class="lo" alt="logo" width="70" title="Go Back To Website">
+        <div class="cont">
+            <div class="cont1">
+                <input type="name" class="user" placeholder="user">
+            </div>
+            <div class="cont2">
+                <input type="password" class="pin" placeholder="pin">
+            </div>
+            <div class="cont3">
+                <button class="righta">&rightarrow;</button>
+            </div>
+        </div>
+    </article>
+
+    <div class="balance hidden">
+        <p class="current">CURRENT BALANCE</p>
+        <p class="cd">As of 5/3/2024</p>
+        <p class="to">1234</p>
+    </div>
+    <aside class="hidden">
+        <section class="left">
+            <div class="lefty">
+                <div class="depo">
+                    <p>2 deposits</p>
+                    <p>3 days ago</p>
+                    <p>4000</p>
+                </div>
+                <div class="with">
+                    <p>1 withdrawal</p>
+                    <p>5 days ago</p>
+                    <p>4500</p>
+                </div>
+                <div class="depo">
+                    <p>Another deposit</p>
+                    <p>2 days ago</p>
+                    <p>3000</p>
+                </div>
+                <div class="with">
+                    <p>Another withdrawal</p>
+                    <p>6 days ago</p>
+                    <p>3500</p>
+                </div>
+                <div class="depo">
+                    <p>Another deposit</p>
+                    <p>2 days ago</p>
+                    <p>3000</p>
+                </div>
+                <div class="with">
+                    <p>Another withdrawal</p>
+                    <p>6 days ago</p>
+                    <p>3500</p>
+                </div>
+            </div>
+
+            <div class="co">
+                <div>
+                    <p class="color1"><b>IN:</b> <span class="inn">500</span></p>
+                </div>
+                <div>
+                    <p class="color2"><b>OUT:</b> <span class="outt">1000</span></p>
+                </div>
+                <div>
+                    <p class="color3"><b>Interest:</b> <span class="intt">100</span></p>
+                </div>
+                <div>
+                    <p class="color4"><b>SORT</b> <span><button class="sort">&downarrow;</button></span></p>
+                </div>
+            </div>
+        </section>
+        <section class="right">
+            <div class="transfer">
+                <p class="transfer1">Transfer money</p>
+                <div class="left2">
+                    <div>
+                        <input type="text" placeholder="Recipient" class="rec">
+                    </div>
+                    <div>
+                        <input type="number" placeholder="Amount" class="amount">
+                    </div>
+                    <div>
+                        <button class="tmbtn">&rightarrow;</button>
+                    </div>
+                </div>
+            </div>
+            <div class="request">
+                <div>
+                    <p class="rll">Request loan</p>
+                </div>
+                <div class="gh">
+                    <div>
+                        <input type="number" placeholder="Amount" class="reql">
+                    </div>
+                    <div>
+                        <button class="reqra">&rightarrow;</button>
+                    </div>
+                </div>
+            </div>
+            <div class="request secondcls">
+                <p class="clpara">Close account</p>
+                <div class="gh1">
+                    <div>
+                        <input type="text" placeholder="Username" class="closeus">
+                    </div>
+                    <div>
+                        <input type="password" placeholder="PIN" class="closepin">
+                    </div>
+                    <div>
+                        <button class="closebtn2">&rightarrow;</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </aside>
+    <div class="footeradd hidden">
+        <p class="my">&copy; DRIZZLE AHUJA</p>
+    </div>
+    <div class="full">
+        <header class="header">
+            <nav class="nav">
+                <div class="navbar">
+                    <div class="left1">
+                        <div class="logo">
+                            <img src="img/logo.png" class="logo1 logo2" width="50vw">
+                        </div>
+                        <div class="logop logo2">
+                            <p>BANKIST</p>
+                        </div>
+                    </div>
+                    <div class="right1">
+                        <div class="features">
+                            <a href="#F" class="features2 navl">Features</a>
+                        </div>
+                        <div class="operations">
+                            <a href="#O" class="operations2 navl">Operations</a>
+                        </div>
+                        <div class="Testimonials">
+                            <a href="#T" class="testimonials2 navl">Testimonials</a>
+                        </div>
+                        <div class="btnopen">
+                            <div class="openacc">
+                                <button class="openaccount navl">
+                                    <p>Check Account</p>
+                                </button>
+                                <div class="openbtn1 hidden">
+                                    <button class="closeacc2">&times;</button>
+                                    <div class="openpara">
+                                        <div class="opp1">
+                                            <div>
+                                                <h3 class="parah12">Check your banking information by filling details
+                                                    below!!!</h3>
+                                            </div>
+                                            <!-- <div>
+                                                <h5 class="parah123">FILL YOUR DETAILS BELOW</h5>
+                                            </div> -->
+                                            <div class="openpara1">
+                                                <div class="opp">
+                                                    <div class="fn">ENTER USER</div>
+                                                    <div><input type="name" class="open1 userinfo"></div>
+                                                </div>
+                                                <div class="opp">
+                                                    <div class="ln">ENTER PIN</div>
+                                                    <div><input type="password" class="open1 pininfo"></div>
+                                                </div>
+                                            </div>
+                                            <h6 class="parah12">Check the info by clicking below</h6>
+                                            <button class="ns"><b>PROCEED</b> &rightarrow;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="navbar1">
+                <div class="leftsecond">
+                    <h1 class="parah">When banking meets minimalist</h1>
+                    <h3 class="parah1">A simpler banking experience for a simpler life</h3>
+                    <h4 class="parah2">CLICK BELOW FOR MORE INFO</h4>
+                    <button class="ui"><u>Learn more &downarrow;</u></button>
+                </div>
+                <div class="right2">
+                    <img src="img/banking.jpg" class="img1">
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="mainsec">
+                <section class="sectionhidden sectionall sec-1" id="F">
+                    <div class="secpara1">
+                        <div class="p1d">
+                            <p class="p1">FEATURES</p>
+                        </div>
+                        <div class="h2d">
+                            <h2 class="parah1">Everything you need in a modern bank and more.</h2>
+                        </div>
+                    </div>
+                    <div class="ss">
+                        <div class="s1">
+                            <div class="i1">
+                                <img src="img/digital-lazy.jpg" data-src="img/digital.jpg" class="i11 lazy">
+                            </div>
+                            <div class="i2">
+                                <p class="p2">100% DIGITAL BANK</p>
+                                <p class="p3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit
+                                    facilis
+                                    veniam
+                                    accusamus quisquam aut aliquid, consequatur delectus repellat sapiente aliquam
+                                    officia
+                                    sequi corrupti id natus fuga, deserunt aperiam assumenda ratione autem iure
+                                    harum
+                                    alias?Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nam
+                                    possimus
+                                    explicabo sit sunt reprehenderit deleniti ab quam ad est!</p>
+                            </div>
+                        </div>
+                        <div class="s1">
+                            <div class="i2">
+                                <p class="p2">WATCH YOUR MONEY GROW</p>
+                                <p class="p3">landitiis deserunt a provident? Temporibus pariatur facere blanditiis.
+                                    Corporis aliquam facilis accusantium alias? Explicabo suscipit magni adipisci
+                                    provident
+                                    deserunt veniam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                                    nam
+                                    possimus explicabo sit sunt reprehenderit deleniti ab quam ad est!</p>
+                            </div>
+                            <div class="i1">
+                                <img src="img/grow-lazy.jpg" data-src="img/grow.jpg" class="i11 lazy">
+                            </div>
+                        </div>
+                        <div class="s1">
+                            <div class="i1">
+                                <img src="img/card-lazy.jpg" data-src="img/card.jpg" class="i11 lazy">
+                            </div>
+                            <div class="i2">
+                                <p class="p2">FREE DEBIT CARD INCLUDED</p>
+                                <p class="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+                                    perferendis doloremque quam, minus, magni exercitationem officia itaque
+                                    quibusdam
+                                    quos
+                                    explicabo, est blanditiis accusantium numquam natus. At adipisci voluptatem ut
+                                    explicabo? Nulla, ea a!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Optio
+                                    nam possimus explicabo sit sunt reprehenderit deleniti ab quam ad est!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="sectionhidden sectionall sec-2" id="O">
+                    <div class="secpara1">
+                        <p class="p1">OPERATIONS</p>
+                        <h2 class="parah1">Everything as simple as possible but no simpler.</h2>
+                    </div>
+                    <div class="js1">
+                        <div class="it1">
+                            <button class="btn it activebtn" data-content="one">01 INSTANT TRANSFERS</button>
+                            <p class="one itp1"> 1) Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
+                                quidem,
+                                molestiae
+                                veritatis explicabo culpa accusantium, atque recusandae magnam ratione odit libero
+                                nemo
+                                illum tenetur qui cum r
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores sunt quas
+                                libero
+                                ad,
+                                minima tenetur atque explicabo molestiae nobis perferendis natus. Qui reprehenderit
+                                nam
+                                dolorem sequi. Nisi assumenda aspernatur libero optio quos, nemo reprehenderit
+                                reiciendis
+                                maiores dolores beatae ratione quas explicabo nam delectus possimus adipisci.</p>
+                        </div>
+                        <div class="it3">
+                            <button class="btn il" data-content="four">02 INSTANT LOANS</button>
+                            <p class="four itp1 hidden">2) Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Quam
+                                quidem,
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sequi sit corrupti
+                                pariatur
+                                quaerat?
+                                molestiae veritatis explicabo culpa accusantium, atque recusandae magnam ratione
+                                odit
+                                libero
+                                nemo illum tenetur qui cum rerum labore.
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque excepturi laboriosam
+                                nulla,
+                                natus quibusdam, sequi qui facilis aperiam autem eos hic omnis quis.</p>
+                        </div>
+                        <div class="it3">
+                            <button class="btn ic" data-content="three">03 INSTANT CLOSING</button>
+                            <p class="three itp1 hidden">3) Lorem ipsum dolor sit amet consectetur, adipisicing
+                                elit.
+                                Quam
+                                quidem,
+                                Lorem ipsa
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptas est
+                                cupiditate
+                                temporibus sit rem impedit eum. Earum explicabo dolorem tempore nemo.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quidem, at,
+                                iusto
+                                eveniet doloribus assumenda laboriosam quo repudiandae nam quisquam deserunt!</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="sectionhidden sectionall 
+            sec-3" id="T">
+                    <div class="secpara1 sss">
+                        <p class="p1">NOT SURE YET?</p>
+                        <h2 class="parah1">Millions of Bankists are already making their lifes simpler.</h2>
+                        <div class="df">
+                            <u class="parah1">"Take a careful look at what others have said about our bank to gain
+                                better
+                                clarity. Choose wisely."</u>
+                        </div>
+                    </div>
+
+                    <div class="para3">
+                        <div class="one">
+                            <button class="arr1">&leftarrow;</button>
+                        </div>
+                        <div class="slide-c">
+                            <div class="two">
+                                <div class="two2" data-slide="0">
+                                    <div class="gap">
+                                        <div>
+                                            <h2><span class="comma">""</span>BEST FINANCIAL DECISION EVER!</h2>
+                                        </div>
+                                        <div>
+                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
+                                                magnam
+                                                omnis,
+                                                recusandae nemo facere, ipsa cum enim, voluptates nisi obcaecati
+                                                commodi
+                                                unde
+                                                facilis
+                                                perspiciatis veritatis officiis sequilorem34
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quasi
+                                                atque
+                                                magnam
+                                                maiores eius, molestiae reprehenderit architecto sed totam tempora
+                                                assumenda
+                                                nisi. Accusamus deserunt pariatur sed sint rem obcaecati voluptate,
+                                                inventore
+                                                reiciendis voluptatum laboriosam!</p>
+                                        </div>
+                                    </div>
+                                    <div class="tw">
+                                        <div class="tw1">
+                                            <img src="img/user1.png" class="image1">
+                                        </div>
+                                        <div class="tw2">
+                                            <p class="vk">JANE DOE</p>
+                                            <p class="del">SYDNEY, AUSTRALIA</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="two2" data-slide="1">
+                                    <div class="gap">
+                                        <div>
+                                            <h2><span class="comma">""</span>BANKING INFORMATION SUPERB!</h2>
+                                        </div>
+                                        <div>
+                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
+                                                magnam omnis,
+                                                recusandae nemo facere, ipsa cum enim, voluptates nisi obcaecati
+                                                commodi
+                                                unde
+                                                facilis
+                                                perspiciatis veritatis officiis sequ Lorem ipsum dolor sit amet
+                                                consectetur,
+                                                adipisicing
+                                                elit. Blanditiis accusantium impedit commodi expedita reiciendis,
+                                                quia
+                                                eveniet
+                                                voluptatum doloremque quisquam optio nostrum velit id nam esse vel
+                                                dicta
+                                                error
+                                                corporis
+                                                dolorem voluptatibus placeat est! Commodi adipisci dolor nam maxime
+                                                ab
+                                                eius
+                                                omnis magni
+                                                voluptatibus qui illo.</p>
+                                        </div>
+                                    </div>
+                                    <div class="tw">
+                                        <div class="tw1">
+                                            <img src="img/user2.png" width="25%" class="image1">
+                                        </div>
+                                        <div class="tw2">
+                                            <p class="vk">KANE SMITH</p>
+                                            <p class="del">LONDON, UK</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="two2" data-slide="2">
+                                    <div class="gap">
+                                        <div>
+                                            <h2><span class="comma">""</span>GREAT EXPERIENCE</h2>
+                                        </div>
+                                        <div>
+                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
+                                                magnam omnis,
+                                                recusandae nemo facere, ipsa cum enim, voluptates nisi obcaecati
+                                                commodi
+                                                unde
+                                                facilis
+                                                perspiciatis veritatis officiis sequ Lorem ipsum dolor sit amet
+                                                consectetur,
+                                                adipisicing
+                                                elit. Blanditiis accusantium impedit commodi expedita reiciendis,
+                                                quia
+                                                eveniet
+                                                voluptatum doloremque quisquam optio nostrum velit id nam esse vel
+                                                dicta
+                                                error
+                                                corporis
+                                                dolorem voluptatibus placeat est! Commodi adipisci dolor nam maxime
+                                                ab
+                                                eius
+                                                omnis magni
+                                                voluptatibus qui illo.</p>
+                                        </div>
+                                    </div>
+                                    <div class="tw">
+                                        <div class="tw1">
+                                            <img src="img/user3.png" width="25%" class="image1">
+                                        </div>
+                                        <div class=" tw2">
+                                            <p class="vk">VIRAT KOHLI</p>
+                                            <p class="del">DELHI, INDIA</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="three">
+                            <button class="arrow3">&rightarrow;</button>
+                        </div>
+                    </div>
+                    <div class="dots">
+                        <div class="dot1 dotsactive" data-dotnumber="0">.</div>
+                        <div class="dot1" data-dotnumber="1">.</div>
+                        <div class="dot1" data-dotnumber="2">.</div>
+                    </div>
+                </section>
+
+            </section>
+        </main>
+
+        <footer>
+            <div class="sectionhidden sectionall f1">
+                <div class="f2">
+                    <h1>THE BEST DAY TO JOIN BANKIST IS TODAY. SO GO FOR IT!!!</h1>
+                </div>
+                <div class="f3">
+                    <button class="openaccount">OPEN YOUR ACCOUNT TODAY</button>
+                </div>
+            </div>
+            <div class="f4">
+                <div class="a1"><a href="#" class="a44">ABOUT</a></div>
+                <div class="a1"><a href="#" class="a44">PRICING</a></div>
+                <div class="a1"><a href="#" class="a44">TERMS OF USE</a></div>
+                <div class="a1"><a href="#" class="a44">PRIVACY POLICY</a></div>
+                <div class="a1"><a href="#" class="a44">CAREER</a></div>
+                <div class="a1"><a href="#" class="a44">BLOGS</a></div>
+                <div class="a1"><a href="#" class="a44">CONTACT US</a></div>
+            </div>
+            <div class="f5">
+                <div class="f6">
+                    <img src="img/logo.png">
+                </div>
+                <div class="f6">
+                    <p class="footercls">&copy;COPYRIGHT BY CHALLENGERS</p>
+                </div>
+            </div>
+        </footer>
+        <div class="overlay hidden"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
